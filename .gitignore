@@ -1,0 +1,51 @@
+## OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+
+## Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+## Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+## LaTeX build artifacts (keep only sources and figures)
+LATEX/*.aux
+LATEX/*.bbl
+LATEX/*.blg
+LATEX/*.log
+LATEX/*.out
+LATEX/*.toc
+LATEX/*.synctex.gz
+LATEX/*.fls
+LATEX/*.fdb_latexmk
+
+LATEX/
+
+## Private / non‑public data (put any non‑free data here)
+DATA/
+
+data/
+raw_data/
+RAW_DATA/
+PRIVATE_DATA/
+private/
+external/
+EXTERNAL_DATA/
+
+## Typical astronomy raw data formats (keep these local)
+**/*.fits
+**/*.fit
+**/*.fz
+**/*.fits.gz
+
+
+*.csv
+*.npz
+
